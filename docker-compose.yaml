@@ -1,0 +1,16 @@
+services:
+  redis:
+    image: redislabs/redismod
+    ports:
+      - '6379:6379'
+  web:
+    build:
+      context: .
+      
+    stop_signal: SIGINT
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/Simple_Docker_Project
+    depends_on:
+      - redis
