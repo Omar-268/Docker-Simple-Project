@@ -29,7 +29,6 @@ docker compose up --build
 
 ### 2. Access the Flask app
 
-
 Visit `http://localhost:8000` to see the visit count.
 
 
