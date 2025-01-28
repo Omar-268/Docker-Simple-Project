@@ -16,7 +16,6 @@ Simple_Docker_Project/
 ```
 
 ## Requirements
-
 - Docker
 - Docker Compose
 
@@ -25,20 +24,20 @@ Simple_Docker_Project/
 ### 1. Build and run the services using Docker Compose
 
 
-docker compose up --build
+``` docker compose up --build ```
 
-```
 
 ### 2. Access the Flask app
 
+
 Visit `http://localhost:8000` to see the visit count.
 
-```
+
 
 ### 3. Stopping the application
 
 
-docker-compose down
+``` docker-compose down ```
 
 
 ## License
