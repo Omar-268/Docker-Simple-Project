@@ -24,8 +24,10 @@ Simple_Docker_Project/
 
 ### 1. Build and run the services using Docker Compose
 
-```bash
+```console
+
 $docker-compose up --build
+
 ```
 
 
