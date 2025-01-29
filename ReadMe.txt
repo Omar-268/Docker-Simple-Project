@@ -25,7 +25,7 @@ Simple_Docker_Project/
 ### 1. Build and run the services using Docker Compose
 
 ```bash
-docker-compose up --build
+$ docker-compose up --build
 
 
 ### 2. Access the Flask app
